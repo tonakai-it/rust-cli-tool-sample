@@ -1,6 +1,6 @@
 # コマンドライン引数のパーサーサンプル
 ```cmd
-cargo run -- firstinput --name "John" --debug --list item1 item2
+cargo run -- firstinput --name "John" --debug --list item1 --list item2
 ```
 
 ## clapのArgAction

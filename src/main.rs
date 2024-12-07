@@ -39,6 +39,7 @@ fn main() {
                 .value_name("List")
                 .help("List")
                 .action(ArgAction::Append)
+                .num_args(1..), // 1つ以上の値を受け取る
         )
         .get_matches();
     // 引数の取得と処理
